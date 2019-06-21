@@ -15,7 +15,6 @@
 //Define Variables we'll be connecting to
 
 BalanceRobot gRobot;
-StopWatch gStopWatch;
 
 void setup()
 {
@@ -23,7 +22,6 @@ void setup()
 
 
   gRobot.begin( RFWD, RBWD, LFWD, LBWD, RENA, RENB, LENA, LENB );
-  gStopWatch.begin();
 }
 
 void loop()
